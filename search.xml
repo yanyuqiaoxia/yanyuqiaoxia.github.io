@@ -190,26 +190,14 @@
 <h3 id="4-样式优先级权重规则"><a href="#4-样式优先级权重规则" class="headerlink" title="4.样式优先级权重规则"></a>4.样式优先级权重规则</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">!important 权重最高</span><br><span class="line">行内样式，权重1000</span><br><span class="line">ID选择器，单个权重100</span><br><span class="line">类名选择器，属性选择器，伪类选择器，单个权重10</span><br><span class="line">标签选择器，伪元素选择器，单个权重1</span><br><span class="line">统配符选择器，关系选择器（+，&gt;,~,&quot;&quot;），否定伪类，权重0</span><br></pre></td></tr></table></figure>
 
 <h3 id="5-css颜色（CSS-Colors）"><a href="#5-css颜色（CSS-Colors）" class="headerlink" title="5.css颜色（CSS Colors）"></a>5.css颜色（CSS Colors）</h3><p>CSS的颜色可以通过以下方法指定：</p>
-<ul>
-<li><p>十六进制颜色</p>
+<p>十六进制颜色</p>
 <p>十六进制颜色 同一字母的大小写的字母进行编写#ff0000，或#FFF0000</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">所有主要浏览器都支持十六进制颜色值。</span><br><span class="line"></span><br><span class="line">指定一个十六进制的颜色其组成部分是：＃RRGGBB，其中RR（红色），GG（绿色）和BB（蓝色）。所有值必须介于0和FF之间。</span><br><span class="line">p</span><br><span class="line">&#123;</span><br><span class="line">background-color:#ff0000;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">所有主要浏览器都支持十六进制颜色值。</span><br><span class="line"></span><br><span class="line">指定一个十六进制的颜色其组成部分是：＃RRGGBB，其中RR（红色），GG（绿色）和BB（蓝色）。所有值必须介于0和FF之间。</span><br><span class="line">p</span><br><span class="line">&#123;</span><br><span class="line">background-color:#ff0000;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<p> RGB颜色</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">RGB颜色值在所有主要浏览器都支持。  </span><br><span class="line">RGB颜色值指定：RGB（红，绿，蓝）。每个参数（红色，绿色和蓝色）定义颜色的亮度，可在0和255之间，或一个百分比值（从0％到100％）之间的整数。</span><br><span class="line"></span><br><span class="line">例如RGB（0,0,255）值呈现为蓝色，因为蓝色的参数设置为最高值（255）而其他设置为0。</span><br><span class="line"></span><br><span class="line">此外，下面的值定义相同的颜色：RGB（0,0,255），RGB（0％，0％，100％）。</span><br></pre></td></tr></table></figure>
 
-
-</li>
-</ul>
-<ul>
-<li><p>RGB颜色</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">RGB颜色值在所有主要浏览器都支持。  </span><br><span class="line">RGB颜色值指定：RGB（红，绿，蓝）。每个参数（红色，绿色和蓝色）定义颜色的亮度，可在0和255之间，或一个百分比值（从0％到100％）之间的整数。</span><br><span class="line"></span><br><span class="line">例如RGB（0,0,255）值呈现为蓝色，因为蓝色的参数设置为最高值（255）而其他设置为0。</span><br><span class="line"></span><br><span class="line">此外，下面的值定义相同的颜色：RGB（0,0,255），RGB（0％，0％，100％）。</span><br></pre></td></tr></table></figure>
-
-
-
-</li>
-</ul>
-<ul>
-<li>RGBA颜色</li>
-</ul>
+<p>RGBA颜色</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">RGBA颜色值是RGB颜色值alpha通道的延伸 - 指定对象的透明度。</span><br><span class="line"></span><br><span class="line">RGBA颜色值指定：RGBA（红，绿，蓝，alpha）。 Alpha参数是一个介于0.0（完全透明）和1.0（完全不透明）之间的参数。</span><br><span class="line"></span><br><span class="line">p</span><br><span class="line">&#123;</span><br><span class="line">background-color:rgba(255,0,0,0.5);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h3 id="6-符合型选择器"><a href="#6-符合型选择器" class="headerlink" title="6.符合型选择器"></a>6.符合型选择器</h3><p><u><strong>选择器最多不能超过3个</strong></u></p>
