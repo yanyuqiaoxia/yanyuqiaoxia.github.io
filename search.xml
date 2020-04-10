@@ -307,7 +307,7 @@
 
 <h3 id="1-9多重背景设置"><a href="#1-9多重背景设置" class="headerlink" title="1.9多重背景设置"></a>1.9多重背景设置</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">单个元素可设置多个背景图片</span><br><span class="line">background:  url(images&#x2F;1.png) no-repeat scroll 20px 20px&#x2F;30px 30px</span><br><span class="line">, url(images&#x2F;1.png) no-repeat scroll 20px 20px&#x2F;30px 30px  red；在写多重背景颜色要写在最后面</span><br></pre></td></tr></table></figure>
 
-<h3 id="-1"><a href="#-1" class="headerlink" title=""></a></h3><h3 id="2、overflow样式"><a href="#2、overflow样式" class="headerlink" title="2、overflow样式"></a>2、overflow样式</h3><p>overflow样式的作用就是，一个元素的内容太大而超出元素边缘时，浏览器对超出部分的内容如何处理</p>
+<h3 id="2、overflow样式"><a href="#2、overflow样式" class="headerlink" title="2、overflow样式"></a>2、overflow样式</h3><p>overflow样式的作用就是，一个元素的内容太大而超出元素边缘时，浏览器对超出部分的内容如何处理</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">overflow：visible;（默认）</span><br><span class="line">超出内容正常显示</span><br><span class="line">overflow：hidden;</span><br><span class="line">超出内容隐藏</span><br><span class="line">overflow：scroll;</span><br><span class="line">如果内容比较多，则用滚动条的形式展示多余内容</span><br><span class="line">overflow：auto;</span><br><span class="line">内容未超出，正常显示</span><br><span class="line">内容超出，显示滚动条</span><br></pre></td></tr></table></figure>]]></content>
   </entry>
 </search>
