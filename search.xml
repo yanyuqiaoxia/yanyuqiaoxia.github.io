@@ -3,7 +3,7 @@
   <entry>
     <title>javascript笔记</title>
     <url>/2020/04/14/javascript%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Hello JavaScript！</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Hello JavaScript！</p>
 <h2 id="1-01-什么是-JavaScript？"><a href="#1-01-什么是-JavaScript？" class="headerlink" title="1.01 - 什么是 JavaScript？"></a>1.01 - 什么是 JavaScript？</h2><ul>
 <li><p>JavaScript是一个轻量级的<em>脚本语言<em>，同时也是一个</em>弱类型语言</em></p>
 </li>
@@ -1028,7 +1028,7 @@ console.log(num);
   <entry>
     <title>前端学习笔记</title>
     <url>/2020/04/04/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="HTML发展历史"><a href="#HTML发展历史" class="headerlink" title="HTML发展历史"></a>HTML发展历史</h2><p>HTML超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。您可以使用 HTML 来建立自己的 WEB 站点，HTML 运行在浏览器上，由浏览器来解析。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="HTML发展历史"><a href="#HTML发展历史" class="headerlink" title="HTML发展历史"></a>HTML发展历史</h2><p>HTML超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。您可以使用 HTML 来建立自己的 WEB 站点，HTML 运行在浏览器上，由浏览器来解析。</p>
 <pre><code>1989年，Tim berners-Lee（蒂姆•博纳斯•李）发明了HTML语言。1990年11月，Tim berners-Lee编写出最早的Web页面。1993年发为互联网工程工作小组(IETF)工作草案发布超文本标记语言，并非标准的工作草案。1995年，W3C组织成立，规范了HTMl的标准，从而奠定了Web标准的开发的基础。</code></pre><p>HTMl从诞生至今，经历了近30年的发展，其中有很多曲折，经历的版本发布日期如表所示</p>
 <table>
 <thead>
